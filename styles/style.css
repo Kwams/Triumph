@@ -30,6 +30,16 @@ h1, h2{
     font-weight: 600;
 }
 
+h3{
+    font-family: 'Playfair Display', 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+h2{
+    font-size: 48px
+}
+
 img{
     width: 100%;
 }
@@ -92,7 +102,7 @@ img{
     color: var(--primary-color);
     padding: 10px;
     margin: 0 5px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .navbar .navbar-menu a:hover{
@@ -101,7 +111,7 @@ img{
 
 /*Showcase*/
 .showcase {
-    height: 500px;
+    height: 425px;
     background-color: #ffffff;
     color: var(--primary-color);
     position: relative;
@@ -117,15 +127,61 @@ img{
 }
 
 .showcase h2{
-    font-size: 32px;
+    font-size: 36px;
     color: #368380;
+    margin: 0px 5px;
 }
 
 
 .showcase p{
-    margin: 5px 0;
+    margin: 5px;
     width: 400px;
 }
+
+/* Association Presentation */
+
+.asso-pres{
+    background-image: url(/images/purple\ bg2.svg);
+    background-size: cover;
+    color: #fff;
+    height: 500px
+}
+
+.asso-pres .grid{
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+.asso-text{
+    padding-left: 50px;
+    padding-top: 60px;
+    align-self: start;
+}
+
+.asso-text .btn{
+    background-color: #408f8c;
+}
+
+.asso-text p, a{
+    margin: 10px 0px;
+}
+
+.asso-text h3{
+
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.asso-text p{
+    width: 500px;
+}
+
+.pres-img img{
+    height: 375px;
+    width: auto;
+    border-radius: 25px 70px 45px 55px;
+}
+
 
 
 
