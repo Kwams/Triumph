@@ -141,7 +141,7 @@ img{
 /* Association Presentation */
 
 .asso-pres{
-    background-image: url(/images/purple-bg2.svg);
+    background-image: url(../images/purple_bg2.svg);
     background-size: cover;
     color: #fff;
     height: 500px
