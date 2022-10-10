@@ -65,6 +65,14 @@ img{
     height: 100%;
 }
 
+.grid3 {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .btn{
     display: inline-block;
     padding: 10px 30px;
@@ -167,7 +175,6 @@ img{
 }
 
 .asso-text h3{
-
     margin-top: -10px;
     margin-bottom: 20px;
 }
@@ -176,14 +183,50 @@ img{
     width: 500px;
 }
 
-.pres-img img{
+.asso-img img{
     height: 375px;
     width: auto;
     border-radius: 25px 70px 45px 55px;
 }
 
+/*Academics presentation*/
+
+.academics{
+    color: var(--secondary-color);
+    background-image: url(../images/white_background2.svg);
+    background-size: cover;
+    height: 500px;
+}
+
+.academics-img img{
+    border-radius: 50px;
+    width: 400px;
+    height: auto;
+    margin-left: 100px;
+    -webkit-filter: drop-shadow(1px 1px 2px #584a5c);
+}
+
+.academics-text p, a{
+    margin: 10px 0px;
+}
+
+.academics-text h3{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
 
 
+/*Beliefs Section*/
+
+.beliefs{
+    height: 700px;
+    color: ;
+    text-align: center;
+}
+
+.beliefs h2{
+    grid-column: 2;
+}
 
 /*
 :root{
