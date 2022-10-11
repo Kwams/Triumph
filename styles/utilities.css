@@ -81,6 +81,26 @@
     padding: 3rem 0px;
 }
 
-.py-4 {
+.py-5 {
     padding: 4rem 0px;
+}
+
+.px-1 {
+    padding: 0px 1rem;
+}
+
+.px-2 {
+    padding: 0px 1.5rem;
+}
+
+.px-3 {
+    padding: 0px 2rem;
+}
+
+.px-4 {
+    padding: 0px 3rem;
+}
+
+.px-5 {
+    padding: 0px 4rem;
 }
