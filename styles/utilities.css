@@ -1,0 +1,86 @@
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;/* sets container in the middle */
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 99em;
+}
+
+.btn:hover{
+    transform: scale(0.98);
+}
+
+/* Margin */
+
+.my-1 {
+    margin: 1rem 0px;
+}
+
+.my-2{
+    margin: 1.5rem 0px;
+}
+
+.my-3{
+    margin: 2rem 0px;
+}
+
+.my-4{
+    margin: 3rem 0px; 
+}
+
+.my-5{
+    margin: 4rem 0px;
+}
+
+/*Padding*/
+
+.py-1 {
+    padding: 1rem 0px;
+}
+
+.py-2 {
+    padding: 1.5rem 0px;
+}
+
+.py-3 {
+    padding: 2rem 0px;
+}
+
+.py-4 {
+    padding: 3rem 0px;
+}
+
+.py-4 {
+    padding: 4rem 0px;
+}

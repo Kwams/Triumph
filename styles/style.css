@@ -44,48 +44,6 @@ img{
     width: 100%;
 }
 
-/*Utilities*/
-.container{
-    max-width: 1100px;
-    margin: 0 auto;/* sets container in the middle */
-}
-
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.grid3 {
-    display: grid;
-    grid-template-columns: 33% 34% 33%;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.btn{
-    display: inline-block;
-    padding: 10px 30px;
-    cursor: pointer;
-    background: var(--primary-color);
-    color: #ffffff;
-    border: none;
-    border-radius: 99em;
-}
-
-.btn:hover{
-    transform: scale(0.98);
-}
 
 /*Navbar*/
 .navbar{
@@ -220,12 +178,36 @@ img{
 
 .beliefs{
     height: 700px;
-    color: ;
+    color: var(--secondary-color);
+    background-color: #f0f0f0;
     text-align: center;
 }
 
-.beliefs h2{
-    grid-column: 2;
+.beliefs .title{
+    padding: 45px 0px;
+}
+
+.beliefs .svg-section{    
+    padding: 0px 30px;
+}
+
+/*Support Us section*/
+
+.support-us{
+    height: 550px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: var(--primary-color);
+}
+
+.support-svg {
+    height: 300px;
+}
+
+.support-us .btn{
+    color: #000;
+    background-color: #e6e6e6;
 }
 
 /*
