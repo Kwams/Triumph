@@ -269,10 +269,6 @@ img{
 
 @media(max-width: 912px){
 
-    .container{
-        width: 100vw;
-    }
-
     .showcase .grid,
     .asso-pres .grid,
     .academics .grid{
@@ -381,6 +377,15 @@ img{
 /*Mobile */
 @media (max-width: 500px) {
 
+    h2{
+        font-size: 12vw;
+    }
+
+    p,
+    img {
+        max-width: 90vw;
+    }
+
     /*navbar*/
 
     .navbar{
@@ -400,9 +405,65 @@ img{
     }
 
     .navbar a{
-        padding: 7px;
-        font-size: 16px;
+        padding: 1vw;
+        font-size: 3.2vw;
     }
 
+    /*Showcase*/
+
+    .showcase{
+        height: auto;
+    }
+
+    .showcase h1{
+        font-size: 13vw;
+    }
+
+    .showcase h2{
+        font-size: 8vw;
+    }
+
+    .showcase p{
+        font-size: 4vw;
+    }
+
+    /* Association presentation*/
+
+    .asso-text{
+        padding-left: 0px;
+    }
+    .asso-pres p{
+        width: auto;
+    }
+
+
+    /* Beliefs section*/
+
+    .beliefs{
+        height: max-content;
+    }
+
+    .beliefs .grid3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beliefs h2{
+        margin: auto;
+    }
+
+    /*Support Us section*/
+
+    .support-us p{
+        width: auto;
+        margin: auto;
+    }
+
+
+    /*footer*/
+
+    .footer h2{
+        padding: 0;
+    }
 }
 
