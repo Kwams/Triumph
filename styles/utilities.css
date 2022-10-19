@@ -1,4 +1,57 @@
+/* General website styling*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,700&display=swap');
 
+:root{
+    --primary-color: #765E82;
+    --secondary-color: #1b4140;
+}
+
+*{
+    box-sizing: border-box; /*allow to add margin and padding without changing width*/
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1, h2{
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 48px
+}
+
+h3{
+    font-family: 'Playfair Display', 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+h4{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+img{
+    width: 100%;
+}
+
+
+/* Utilities*/
 .container{
     max-width: 1100px;
     margin: 0 auto;/* sets container in the middle */
