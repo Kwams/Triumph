@@ -1,0 +1,151 @@
+*{
+    color: var(--secondary-color);
+}
+
+/*Navbar*/
+
+.navbar{
+    height: 20vh;  
+    margin-top: 3vh;
+}
+
+.navbar-brand{
+    height: 20vh;
+    width: auto;
+}
+
+.navbar-menu{
+    display: flex;
+}
+
+.navbar .flex{
+    justify-content: space-between;
+}
+
+.navbar a{
+    color: var(--secondary-color);
+    padding: 2px 1vw;
+    margin: 0 0.5vw;
+    font-size: 20px;
+}
+
+.navbar .navbar-menu a:hover{
+    border-bottom: 2px #1f4b4a solid;
+}
+
+/*Header*/
+
+.header {
+    color: var(--secondary-color);
+    margin-bottom: 50px;
+}
+
+.header .grid{
+    align-items: start;
+}
+
+.header-text{
+    padding-left: 40px;
+}
+
+.header-img{
+    padding-right: 40px;
+}
+
+.header h1{
+    font-size: 68px;
+}
+
+.header h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header p{
+    max-width: 450px;
+}
+
+.header img{
+    height: 250px;
+    margin-top: 20px;
+}
+
+/* Why Give?*/
+
+.give{
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.give h2,
+p{
+    color: #fff;
+}
+
+.give p{
+    width: 50vw;
+    margin: auto;
+}
+
+/*How to Help Section*/
+.beliefs{
+    height: 600px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.beliefs p{
+    color:  #1f4b4a;
+}
+
+.beliefs .title{
+    padding: 45px 0px;
+    grid-column: 1/ span 3;
+}
+
+.beliefs .svg-section{    
+    padding: 0px 30px;
+    padding-bottom: 50px;
+}
+
+.beliefs .svg-section h3{
+    padding: 15px 0px;
+}
+
+.footer{
+    background-color: #f0f0f0;
+}
+
+.footer .grid3{
+    align-items: start;
+}
+
+.brand img{
+    width: 175px;
+    height:auto;
+    margin-left: 5vw;
+}
+
+.brand .icon-section{
+    display: flex;
+    max-width: 200px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    line-height: 2;
+}
+
+
+.brand h2{
+    width:400px;
+    font-size: 40px;
+}
+
+.brand h3{
+    font-size: 30px;
+}
+
+.contact h4{
+    padding-bottom: 1rem;
+}
