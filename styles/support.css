@@ -237,6 +237,36 @@ p{
         font-size: 3.2vw;
     }
 
+    /*Header*/
+
+    .header-text{
+        padding: 0;
+    }
+
+    .header h1{
+        padding: 15px 0px;
+        font-size: 52px;
+    }
+
+    .header h2{
+        font-size: 32px;
+    }
+
+    /* Beliefs section*/
+
+    .beliefs{
+        height: max-content;
+    }
+
+    .beliefs .grid3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .beliefs h2{
+        margin: auto;
+    }
+
     
 
 }
