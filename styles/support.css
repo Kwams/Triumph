@@ -1,6 +1,4 @@
-*{
-    color: var(--secondary-color);
-}
+
 
 /*Navbar*/
 
@@ -92,6 +90,7 @@ p{
     height: 600px;
     background-color: #fff;
     text-align: center;
+    color: var(--secondary-color);
 }
 
 .beliefs p{

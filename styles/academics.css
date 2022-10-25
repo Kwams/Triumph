@@ -28,7 +28,7 @@
 }
 
 .navbar .navbar-menu a:hover{
-    border-bottom: 2px #1f4b4a solid;
+    border-bottom: 2px var(--primary-color) solid;
 }
 
 /*Header*/
