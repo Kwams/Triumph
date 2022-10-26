@@ -251,6 +251,11 @@ p{
         font-size: 32px;
     }
 
+    /*Why give section*/
+    .give p{
+        width: 90vw;
+    } 
+
     /* Beliefs section*/
 
     .beliefs{
