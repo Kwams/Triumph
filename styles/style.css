@@ -69,7 +69,8 @@
     background-image: url(../images/index/purple_bg2.svg);
     background-size: cover;
     color: #fff;
-    height: 500px
+    height: fit-content;
+    padding-bottom: 50px;
 }
 
 .asso-pres .grid{

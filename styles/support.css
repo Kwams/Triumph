@@ -75,9 +75,12 @@
     background-color: var(--secondary-color);
 }
 
-.give h2,
-p{
+.give h2, p, li{
     color: #fff;
+}
+
+.li {
+    text-align: left;
 }
 
 .give p{
@@ -178,6 +181,10 @@ p{
     .footer .contact,
     .footer .sitemap{
         margin: 10px 0px;
+    }
+
+    .footer li{
+        color: #000;
     }
 
     .footer .contact{
